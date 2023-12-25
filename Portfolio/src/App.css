@@ -9,18 +9,15 @@
   text-align: center;
 }
 .rotate-animation{
-  animation: rotate linear 2s infinite;
+  animation: rotate linear 5s infinite;
 }
 
 @keyframes rotate {
-  0%{
+  from{
     transform: rotate(0deg);
   }
-  50%{
+  to{
     transform: rotate(360deg);
-  }
-  100%{
-    transform: rotate(0deg);
   }
 }
 @media (max-width: 768px) {
