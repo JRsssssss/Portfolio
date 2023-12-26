@@ -3,10 +3,9 @@
 @tailwind utilities;
 
 #root {
-  max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
   text-align: center;
+  background-color: #2a2a2a;
 }
 .rotate-animation{
   animation: rotate linear 5s infinite;
@@ -22,6 +21,6 @@
 }
 @media (max-width: 768px) {
   #root {
-    padding: 1rem;
+    
   }
 }

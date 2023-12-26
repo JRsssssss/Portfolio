@@ -5,7 +5,7 @@ function App()
 {
   return (
     <>
-      <div className="bg-black flex justify-center items-center h-[500px]">
+      <div className="flex justify-center items-center h-screen w-screen">
         <h1 className="text-4xl font-bold underline text-red-500 rotate-animation">
           <img src={earth} alt="wow" className="w-[200px] h-[200px]"/>
         </h1>
