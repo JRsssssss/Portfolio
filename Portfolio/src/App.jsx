@@ -1,17 +1,18 @@
 import React from 'react';
+import {createBrowserRouter,RouterProvider, Route, Link} from 'react-router-dom'
 import './App.css';
-import earth from "../src/assets/earth.jpg";
+import Combine from './Combine.jsx';
 function App() 
 {
+  const router = createBrowserRouter([
+    {
+
+      path:"/",
+      element: <Combine />
+    }
+  ])
   return (
-    <>
-      <div className="flex justify-center items-center h-screen w-screen">
-        <h1 className="text-4xl font-bold underline text-red-500 rotate-animation">
-          <img src={earth} alt="wow" className="w-[200px] h-[200px]"/>
-        </h1>
-      </div>
-     
-    </>
+    <RouterProvider router={router}/>
   )
 }
 
