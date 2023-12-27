@@ -4,8 +4,10 @@
 
 #root {
   margin: 0 auto;
+  padding: 0;
   text-align: center;
   background-color: #2a2a2a;
+  
 }
 .rotate-animation{
   animation: rotate linear 5s infinite;
