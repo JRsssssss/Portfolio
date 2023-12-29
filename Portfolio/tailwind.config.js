@@ -6,7 +6,11 @@ module.exports = {
     
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        baskerville: ['Libre Baskerville', 'serif'],
+      },
+    },
   },
   plugins: [],
 };
