@@ -1,0 +1,98 @@
+@keyframes spin_01{
+    0%{
+        transform: rotate(0deg);
+        translate: 0px 0px;
+    }
+    50%{
+        transform: rotate(360deg);
+        translate: 300px 200px;
+    }
+    100%{
+        transform: rotate(0deg);
+        translate: 0px 0px;
+    }
+}
+@keyframes spin_02{
+    0%{
+        transform: rotate(0deg);
+        translate: 0px 0px;
+    }
+    50%{
+        transform: rotate(360deg);
+        translate: 0px -380px;
+    }
+    100%{
+        transform: rotate(0deg);
+        translate: 0px 0px;
+    }
+}
+@keyframes spin_03{
+    0%{
+        transform: rotate(0deg);
+        translate: 0px 0px;
+    }
+    50%{
+        transform: rotate(360deg);
+        translate: -300px 200px;
+    }
+    100%{
+        transform: rotate(0deg);
+        translate: 0px 0px;
+    }
+}
+
+.circle{
+    position: absolute;
+    z-index: 1;
+    height: 350px;
+    width: 400px;
+}
+.circle::before {
+    content: '';
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background-image: url('../assets/html5.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    left: 180px;
+    top: 30px;
+    animation: spin_01 linear 5s infinite;
+}
+.circle_2{
+    position: absolute;
+    z-index: 1;
+    height: 350px;
+    width: 400px;
+}
+.circle_2::before{
+    content: '';
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background-image: url('../assets/css3.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    left: 340px;
+    top: 350px;
+    animation: spin_02 linear 10s infinite;
+}
+.circle_3{
+    position: absolute;
+    z-index: 1;
+    height: 350px;
+    width: 400px;
+}
+.circle_3::before{
+    content: '';
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background-image: url('../assets/js.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    left: 500px;
+    top: 30px;
+    animation: spin_03 linear 8s infinite;
+}
+
