@@ -6,7 +6,7 @@ import twitch from '../assets/twitch.svg'
 export const Header = () =>{
     return(
         <>
-            <div className="flex justify-between h-[100px] text-[#c0c0c0] font-baskerville mt-6 ml-10 mr-10 border">
+            <div className="flex justify-between h-[100px] text-[#c0c0c0] font-baskerville mt-6 ml-10 mr-10 ">
                 <div className="flex gap-10">
                     <div className="text-2xl">
                         <a href="">About</a>
