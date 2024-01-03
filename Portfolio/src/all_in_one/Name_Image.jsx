@@ -4,12 +4,12 @@ import './Name_image.css'
 
 export const Name_Image = () => {
     return (
-        <div className="flex justify-center items-center mt-[120px] space-x-20 text-[#fff8f8] font-baskerville">  
-            <div className="-mt-1">
-                <h1 className="text-9xl">
+        <div className="flex justify-center items-center mt-[120px] space-x-20 text-[#fff8f8] font-baskerville border">  
+            <div className="-mt-1 items-center">
+                <h1 className="hello_text">
                     Hello
                 </h1>
-                <p className="">
+                <p className="short_intro">
                     I'm Prem (Jirapat Ruetrakul) <br />
                     I'm software engineering student of KMITL <br />
                 </p>

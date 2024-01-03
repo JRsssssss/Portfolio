@@ -1,0 +1,41 @@
+.about_contact{
+    display: flex;
+    gap: 40px;
+    font-size: 24px;
+}
+.icon{
+    width: 40px;
+    height: 40px;
+    gap: 40px;
+}
+.icon_container{
+    display: flex;
+    gap: 40px;
+}
+@media  screen and (min-width:768px) and (max-width:1023px){
+    .about_contact{
+        gap: 25px;
+        font-size: 16px;
+    }
+    .icon{
+        width: 30px;
+        height: 30px;
+    }
+    .icon_container{
+        gap: 30px;
+    }
+}
+
+@media screen and (max-width:767px){
+    .about_contact{
+        gap: 15px;
+        font-size: 14px;
+    }
+    .icon{
+        width: 15px;
+        height: 15px;
+    }
+    .icon_container{
+        gap: 15px;
+    }
+}
