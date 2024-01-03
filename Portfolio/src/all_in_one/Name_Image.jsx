@@ -6,7 +6,7 @@ export const Name_Image = () => {
     return (
         <div className="flex justify-center items-center mt-[120px] space-x-20 text-[#fff8f8] font-baskerville">  
             <div className="-mt-1">
-                <h1 className="text-9xl text-shadow">
+                <h1 className="text-9xl">
                     Hello
                 </h1>
                 <p className="">
