@@ -6,10 +6,10 @@ export const Name_Image = () => {
     return (
         <div className="flex justify-center items-center mt-[120px] space-x-20 text-[#fff8f8] font-baskerville border">  
             <div className="-mt-1 items-center">
-                <h1 className="hello_text">
+                <h1 className="hello_text border">
                     Hello
                 </h1>
-                <p className="short_intro">
+                <p className="short_intro border">
                     I'm Prem (Jirapat Ruetrakul) <br />
                     I'm software engineering student of KMITL <br />
                 </p>

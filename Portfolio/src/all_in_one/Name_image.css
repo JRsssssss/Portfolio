@@ -87,7 +87,7 @@
     background-repeat: no-repeat;
     left: 340px;
     top: 275px;
-    animation: spin_02 linear 10s infinite;
+
 }
 .circle_3{
     position: absolute;
@@ -105,7 +105,7 @@
     background-repeat: no-repeat;
     left: 460px;
     top: 28px;
-    animation: spin_03 linear 8s infinite;
+
 }
 
 @media  screen and (min-width:768px) and (max-width:1023px){
@@ -121,6 +121,28 @@
         border-radius: 50%;
         object-fit: cover;
     }
+    .circle::before, .circle_2::before, .circle_3::before {
+        height: 40px;  /* Smaller icon size */
+        width: 40px;
+    }
+    .circle::before{
+        top: 80px;
+        animation: spin_01 linear 5s infinite;
+    }
+    @keyframes spin_01{
+        0%{
+            transform: rotate(0deg);
+            translate: 0px 0px;
+        }
+        50%{
+            transform: rotate(360deg);
+            translate: 250px 100px;
+        }
+        100%{
+            transform: rotate(0deg); 
+            transform: 0px 0px;
+        }
+    }
 }
 
 @media screen and (max-width:767px){
@@ -128,12 +150,16 @@
         font-size: 60px;
     }
     .short_intro{
-        font-size: 9px;
+        font-size: 9px; 
     }
     .my_img{
         width: 150px;
         height: 150px;
         border-radius: 50%;
         object-fit: cover; 
+    }
+    .circle::before, .circle_2::before, .circle_3::before {
+        height: 30px;  /* Smaller icon size */
+        width: 30px;
     }
 }
