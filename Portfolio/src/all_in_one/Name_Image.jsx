@@ -15,7 +15,7 @@ export const Name_Image = () => {
                 </p>
             </div>
             <div className="text-4xl font-bold underline text-red-500 ">
-                <img src={earth} alt="Earth" className="object-cover w-[300px] h-[300px] rounded-full ml-5" />
+                <img src={earth} alt="Earth" className="my_img ml-5" />
             </div>
             <div className="circle"></div>
             <div className="circle_2"></div>
