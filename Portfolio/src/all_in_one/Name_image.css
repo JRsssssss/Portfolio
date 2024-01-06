@@ -69,7 +69,7 @@
     background-repeat: no-repeat;
     left: 180px;
     top: 30px;
-    animation: spin_01 linear 5s infinite;
+    animation: spin_01 linear 2s infinite;
 }
 .circle_2{
     position: absolute;
@@ -87,7 +87,7 @@
     background-repeat: no-repeat;
     left: 340px;
     top: 275px;
-
+    animation: spin_02 linear 2s infinite;
 }
 .circle_3{
     position: absolute;
@@ -105,7 +105,7 @@
     background-repeat: no-repeat;
     left: 460px;
     top: 28px;
-
+    animation: spin_03 linear 2s infinite;
 }
 
 @media  screen and (min-width:768px) and (max-width:1023px){
@@ -122,12 +122,19 @@
         object-fit: cover;
     }
     .circle::before, .circle_2::before, .circle_3::before {
-        height: 40px;  /* Smaller icon size */
+        height: 40px;
         width: 40px;
     }
     .circle::before{
         top: 80px;
-        animation: spin_01 linear 5s infinite;
+    }
+    .circle_2::before{
+        left: 300px;
+        top: 238px;
+    }
+    .circle_3::before{
+        left: 410px;
+        top: 80px;
     }
     @keyframes spin_01{
         0%{
@@ -141,6 +148,34 @@
         100%{
             transform: rotate(0deg); 
             transform: 0px 0px;
+        }
+    }
+    @keyframes spin_02{
+        0%{
+            transform: rotate(0deg);
+            translate: 0px 0px;
+        }
+        50%{
+            transform: rotate(360deg);
+            translate: 0px -167px;
+        }
+        100%{
+            transform: rotate(0deg);
+            translate: 0px 0px;
+        }
+    }
+    @keyframes spin_03{
+        0%{
+            transform: rotate(0deg);
+            translate: 0px 0px;
+        }
+        50%{
+            transform: rotate(360deg);
+            translate: -200px 150px;
+        }
+        100%{
+            transform: rotate(0deg);
+            translate: 0px 0px;
         }
     }
 }
@@ -159,7 +194,61 @@
         object-fit: cover; 
     }
     .circle::before, .circle_2::before, .circle_3::before {
-        height: 30px;  /* Smaller icon size */
+        height: 30px;
         width: 30px;
+    }
+    .circle::before{
+        top: 100px;
+        left: 200px;
+    }
+    .circle_2::before{
+        left: 270px;
+        top: 220px;
+    }
+    .circle_3::before{
+        left: 360px;
+        top: 100px;
+    }
+    @keyframes spin_01{
+        0%{
+            transform: rotate(0deg);
+            translate: 0px 0px;
+        }
+        50%{
+            transform: rotate(360deg);
+            translate: 250px 100px;
+        }
+        100%{
+            transform: rotate(0deg); 
+            transform: 0px 0px;
+        }
+    }
+    @keyframes spin_02{
+        0%{
+            transform: rotate(0deg);
+            translate: 0px 0px;
+        }
+        50%{
+            transform: rotate(360deg);
+            translate: 0px -167px;
+        }
+        100%{
+            transform: rotate(0deg);
+            translate: 0px 0px;
+        }
+    }
+    @keyframes spin_03{
+        0%{
+            transform: rotate(0deg);
+            translate: 0px 0px;
+        }
+        50%{
+            transform: rotate(360deg);
+            translate: -200px 150px;
+        }
+        100%{
+            transform: rotate(0deg);
+            translate: 0px 0px;
+        }
     }
 }
