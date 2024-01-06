@@ -2,22 +2,22 @@
     margin-top: 300px;
     display: flex;
     flex-direction: row;
-    height: 80vh; /* Use 100% of the viewport height */
+    height: 80vh;
     gap: 20;
     padding: 20px;
 }
 
 .about_me_text {
     font-size: 60px;
-    margin-bottom: 1rem; /* Space between the title and paragraph */
+    margin-bottom: 1rem;
 }
 
 .about_me_paragraph {
-    max-width: 500px; /* Set the maximum width of the paragraph */
+    max-width: 500px;
     text-indent: 50px;
     font-size: 20px;
-    line-height: 1.6; /* Improves readability */
-    /* Removed padding and flex properties */
+    line-height: 1.6;
+
 }
 
 @media screen and (min-width:768px) and (max-width:1023px) {
