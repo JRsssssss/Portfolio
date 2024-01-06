@@ -1,9 +1,8 @@
 #about_part {
     margin-top: 300px;
-    display: flex;
     flex-direction: row;
     height: 80vh;
-    gap: 20;
+    gap: 80px;
     padding: 20px;
 }
 
@@ -19,6 +18,16 @@
     line-height: 1.6;
 
 }
+.hide { 
+    opacity: 0; 
+    visibility: hidden; 
+    transition: opacity 0.5s, visibility 0.5s; 
+}
+.show { 
+    opacity: 1; 
+    visibility: visible; 
+    transition: opacity 0.5s, visibility 0.5s; 
+}
 
 @media screen and (min-width:768px) and (max-width:1023px) {
     .about_me_text {
@@ -32,6 +41,7 @@
 @media screen and (max-width:767px) {
     #about_part{
         flex-direction: column;
+        gap: 20px;
     }
     .about_me_text {
         font-size: 30px;
