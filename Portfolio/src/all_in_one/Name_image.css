@@ -2,7 +2,7 @@
     font-size: 128px;
 }
 .short_intro{
-    font-size:16px
+    font-size:20px
 }
 .my_img{
     width: 300px;        
@@ -67,9 +67,9 @@
     background-image: url('../assets/html5.svg');
     background-size: contain;
     background-repeat: no-repeat;
-    left: 180px;
+    left: 230px;
     top: 30px;
-    animation: spin_01 linear 2s infinite;
+    animation: spin_01 linear 5s infinite;
 }
 .circle_2{
     position: absolute;
@@ -85,9 +85,9 @@
     background-image: url('../assets/css3.svg');
     background-size: contain;
     background-repeat: no-repeat;
-    left: 340px;
+    left: 360px;
     top: 275px;
-    animation: spin_02 linear 2s infinite;
+    animation: spin_02 linear 8s infinite;
 }
 .circle_3{
     position: absolute;
@@ -103,9 +103,9 @@
     background-image: url('../assets/js.svg');
     background-size: contain;
     background-repeat: no-repeat;
-    left: 460px;
+    left: 500px;
     top: 28px;
-    animation: spin_03 linear 2s infinite;
+    animation: spin_03 linear 10s infinite;
 }
 
 @media  screen and (min-width:768px) and (max-width:1023px){
@@ -127,6 +127,7 @@
     }
     .circle::before{
         top: 80px;
+        left: 200px;
     }
     .circle_2::before{
         left: 300px;
@@ -143,7 +144,7 @@
         }
         50%{
             transform: rotate(360deg);
-            translate: 250px 100px;
+            translate: 200px 150px;
         }
         100%{
             transform: rotate(0deg); 
@@ -216,7 +217,7 @@
         }
         50%{
             transform: rotate(360deg);
-            translate: 250px 100px;
+            translate: 150px 100px;
         }
         100%{
             transform: rotate(0deg); 
@@ -230,7 +231,7 @@
         }
         50%{
             transform: rotate(360deg);
-            translate: 0px -167px;
+            translate: 0px -127px;
         }
         100%{
             transform: rotate(0deg);
@@ -244,7 +245,7 @@
         }
         50%{
             transform: rotate(360deg);
-            translate: -200px 150px;
+            translate: -160px 120px;
         }
         100%{
             transform: rotate(0deg);
