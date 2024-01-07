@@ -20,11 +20,11 @@ export const About = () => {
     }, [isVisible]);
 
     return (
-        <div id="about_part" className={`flex justify-center items-center h-[300px] text-[#fff8f8] font-baskerville ${isVisible ? 'show' : 'hide'}`}>
-            <div className='about_me_text'>
+        <div id="about_part" className={`flex justify-center border items-center h-[300px] text-[#fff8f8] font-baskerville ${isVisible ? 'show' : 'hide'}`}>
+            <div className='about_me_text border'>
                 <h1>About me</h1>
             </div>
-            <div className='about_me_paragraph'>
+            <div className='about_me_paragraph border'>
                 <p>
                     Hello! My name is Jirapat Ruetrakul, but you can call me Prem. I am currently a passionate second-year student at KMITL University,
                     where my journey in the realm of technology and innovation is in full swing. With a keen interest in the interconnected world of
