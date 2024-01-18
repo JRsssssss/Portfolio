@@ -1,0 +1,24 @@
+#container{
+    margin-top: 300px;
+    flex-direction: row;
+    height: 80vh;
+    gap: 80px;
+    padding: 20px;
+}
+.experience_text{
+    font-size: 60px;
+}
+.experience_paragraph{
+    font-size: 20px;
+    line-height: 1.6;
+}
+.hide { 
+    opacity: 0; 
+    visibility: hidden; 
+    transition: opacity 2s, visibility 2s; 
+}
+.show { 
+    opacity: 1; 
+    visibility: visible; 
+    transition: opacity 2s, visibility 2s; 
+}

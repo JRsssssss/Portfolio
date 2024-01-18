@@ -8,7 +8,6 @@
 
 .about_me_text {
     font-size: 60px;
-    margin-bottom: 1rem;
 }
 
 .about_me_paragraph {
@@ -16,7 +15,6 @@
     text-indent: 50px;
     font-size: 20px;
     line-height: 1.6;
-
 }
 .hide { 
     opacity: 0; 
