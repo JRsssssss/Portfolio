@@ -21,7 +21,7 @@ export const Experience = () =>{
         <div id="container" className={`flex justify-center items-center border ${isVisible ? 'show' : 'hide'}`} >
             <div className="experience_paragraph">
                 <p>
-                    Hello kuay
+                    Hello world
                 </p>
             </div>
             <div className="experience_text">
