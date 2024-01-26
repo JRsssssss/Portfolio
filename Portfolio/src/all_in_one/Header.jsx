@@ -2,7 +2,7 @@ import React from "react";
 import instagram from '../assets/instagram.svg'
 import github from '../assets/square-github.svg'
 import facebook from '../assets/square-facebook.svg'
-import twitch from '../assets/twitch.svg'
+import linkedin from '../assets/linkedin.svg'
 import { Link } from 'react-scroll';
 import './Header.css';
 export const Header = () =>{
@@ -22,7 +22,7 @@ export const Header = () =>{
                     
                 <div className="icon_container">
                     <div>
-                        <a href="https://www.instagram.com/palyrahumestromoss/" tarrget="_blank">
+                        <a href="https://www.instagram.com/palyrahumestromoss/" target="_blank">
                             <img src={instagram} alt="instagram icon" className="icon"/>
                         </a>
                     </div>
@@ -37,8 +37,8 @@ export const Header = () =>{
                         </a>
                     </div>
                     <div>
-                        <a href="https://www.twitch.tv/jr_sssssss" target="_blank">
-                            <img src={twitch} alt="twitch icon"  className="icon"/>
+                        <a href="https://www.linkedin.com/in/jirapat-ruetrakul-266b002a6/" target="_blank">
+                            <img src={linkedin} alt="Linkedin icon"  className="icon"/>
                         </a>
                     </div>
 
