@@ -8,7 +8,7 @@ import './Header.css';
 export const Header = () =>{
     return(
         <>
-            <div className="flex justify-between h-[100px] text-[#c0c0c0] font-baskerville mt-6 ml-10 mr-10">
+            <div className="flex justify-between text-[#c0c0c0] font-baskerville mt-6 ml-10 mr-10">
                 <div className="about_contact ">
                     <div>
                         <Link to="about_part" smooth={true} duration={1000}>
