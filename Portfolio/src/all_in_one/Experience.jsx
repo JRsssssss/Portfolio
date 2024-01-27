@@ -19,12 +19,22 @@ export const Experience = () =>{
 
     return(
         <div id="container" className={`flex justify-center items-center text-[#fff8f8] font-baskerville border ${isVisible ? 'show' : 'hide'}`} >
-            <div className="experience_paragraph">
-                <p>
-                    Hello world
-                </p>
+            <div className="experience_paragraph border">
+                <div className='border'>
+                    <h2 className='year border'>2022</h2>
+                    <p className='year_detail border'>
+                        Started learning and delvelop the portfolio website
+                        by HTML and CSS.
+                    </p>
+                    <h2 className='year border'>2023</h2>
+                    <p className='year_detail border'>
+                        Learning the JavaScript, RESTful API (FastAPI). Make a project
+                        with team, building the Software Engineering website.
+                    </p>
+                    
+                </div>
             </div>
-            <div className="experience_text">
+            <div className="experience_text border">
                 <h1>Experience</h1>
             </div>
         </div>

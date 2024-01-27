@@ -11,6 +11,15 @@
 .experience_paragraph{
     font-size: 20px;
     line-height: 1.6;
+    width: 700px;
+}
+.year{
+    font-size: 30px;
+    padding-bottom: 5px;
+}
+.year_detail{
+    text-indent: 50px;
+    margin-bottom: 50px;
 }
 .hide { 
     opacity: 0; 
