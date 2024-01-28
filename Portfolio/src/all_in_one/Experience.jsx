@@ -18,17 +18,17 @@ export const Experience = () =>{
     }, [isVisible]);
 
     return(
-        <div id="container" className={`flex justify-center items-center text-[#fff8f8] font-baskerville border ${isVisible ? 'show' : 'hide'}`} >
+        <div id="container" className={`flex justify-center items-center text-[#fff8f8] font-baskerville border`} >
             <div className="experience_paragraph border">
                 <div className='border'>
-                    <h2 className='year border'>2022</h2>
-                    <p className='year_detail border'>
+                    <h2 className={`year border ${isVisible ? 'show2' : 'hide2'}`}>2022</h2>
+                    <p className={`year_detail border ${isVisible ? 'show2' : 'hide2'}`}>
                         Started learning and delvelop the portfolio website
                         by HTML and CSS.
                     </p>
-                    <h2 className='year border'>2023</h2>
-                    <p className='year_detail border'>
-                        Learning the JavaScript, RESTful API (FastAPI). Make a project
+                    <h2 className={`year border ${isVisible ? 'show2' : 'hide2'}`}>2023</h2>
+                    <p className={`year_detail border ${isVisible ? 'show2' : 'hide2'}`}>
+                        Learning the JavaScript, RESTful API (FastAPI). Making a project
                         with team, building the Software Engineering website.
                     </p>
                     

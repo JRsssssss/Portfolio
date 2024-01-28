@@ -21,13 +21,22 @@
     text-indent: 50px;
     margin-bottom: 50px;
 }
-.hide { 
+.hide2 { 
     opacity: 0; 
     visibility: hidden; 
-    transition: opacity 2s, visibility 2s; 
+    transition: opacity 2s, visibility 2s;
 }
-.show { 
+.show2 { 
     opacity: 1; 
     visibility: visible; 
-    transition: opacity 2s, visibility 2s; 
+    transition: opacity 2s, visibility 2s;
+    animation: move_in linear 1s
+}
+@keyframes move_in{
+    0%{
+        translate: -50px;
+    }
+    100%{
+        translate: 0px;
+    }
 }
