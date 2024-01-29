@@ -6,7 +6,17 @@
     padding: 20px;
 }
 .experience_text{
+    position: relative;
     font-size: 60px;
+}
+.experience_text::before{
+    content: '';
+    position: absolute;
+    height: 70px; 
+    background-color: #c0c0c0;
+    top: 50%;
+    left: -30px; 
+    transform: translateY(-50%);
 }
 .experience_paragraph{
     font-size: 20px;
@@ -14,8 +24,25 @@
     width: 700px;
 }
 .year{
+    position: relative;
     font-size: 30px;
     padding-bottom: 5px;
+}
+.year::before{
+    content: '';
+    position: absolute;
+    height: 30px; 
+    background-color: #c0c0c0;
+    top: 50%;
+    left: -30px; 
+    transform: translateY(-50%);
+}
+.experience_text_animated::before {
+    animation: ex_text 500ms linear forwards;
+}
+
+.year_animated::before {
+    animation: year_header 500ms linear forwards;
 }
 .year_detail{
     text-indent: 50px;
@@ -32,12 +59,49 @@
     transition: opacity 2s, visibility 2s;
     animation: move_in linear 1s
 }
+.hide3{
+    opacity: 0; 
+    visibility: hidden; 
+}
+.show3{
+    opacity: 1; 
+    visibility: visible; 
+    transition: opacity 2s, visibility 2s;
+}
 @keyframes move_in{
     0%{
         translate: -50px;
     }
     100%{
         translate: 0px;
+    }
+}
+@keyframes year_header{
+    0% {
+        width: 0px;
+        left: -30px;
+    }
+    50% {
+        width: 100px;
+        left: -30px;
+    }
+    100% {
+        width: 0px;
+        left: 70px;
+    }
+}
+@keyframes ex_text{
+    0% {
+        width: 0px; 
+        left: -30px
+    }
+    50% {
+        width: 300px;
+        left: -30px
+    }
+    100% {
+        width: 0px;
+        left:  270px
     }
 }
 @media screen and (min-width:768px) and (max-width:1023px) {
@@ -51,6 +115,26 @@
     .experience_paragraph{
         font-size: 18px;
         width: 600px;
+    }
+    .year{
+        text-align: center;
+    }
+    .year_detail{
+        text-align: center;
+    }
+    @keyframes year_header{
+        0% {
+            width: 0px;
+            left: 240px;
+        }
+        50% {
+            width: 100px;
+            left: 240px;
+        }
+        100% {
+            width: 0px;
+            left: 340px;
+        }
     }
 }
 
@@ -72,5 +156,33 @@
     }
     .year_detail{
         text-align: center;
+    }
+    @keyframes ex_text{
+        0% {
+            width: 0px; 
+            left: -30px
+        }
+        50% {
+            width: 200px;
+            left: -30px
+        }
+        100% {
+            width: 0px;
+            left:  170px
+        }
+    }
+    @keyframes year_header{
+        0% {
+            width: 0px;
+            left: 200px;
+        }
+        50% {
+            width: 100px;
+            left: 200px;
+        }
+        100% {
+            width: 0px;
+            left: 300px;
+        }
     }
 }

@@ -20,7 +20,7 @@ export const About = () => {
     }, [isVisible]);
 
     return (
-        <div id="about_part" className={`flex justify-center items-center border h-[300px] text-[#fff8f8] font-baskerville`}>
+        <div id="about_part" className={`flex justify-center items-center text-[#fff8f8] font-baskerville`}>
             <div className='about_me_text'>
                 <h1>About me</h1>
             </div>
