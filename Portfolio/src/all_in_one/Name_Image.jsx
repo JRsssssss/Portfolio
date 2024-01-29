@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import earth from "../assets/Prem.jpg";
 import './Name_image.css';
 
