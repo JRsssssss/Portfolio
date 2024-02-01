@@ -19,7 +19,6 @@ export const Header = () =>{
                         <a href="">Contact</a>
                     </div>
                 </div>
-                    
                 <div className="icon_container">
                     <div>
                         <a href="https://www.instagram.com/palyrahumestromoss/" target="_blank">
