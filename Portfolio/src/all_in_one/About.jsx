@@ -1,24 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import './About.css';
-
+import useVisibility from './useVisibility';
 export const About = () => {
-    const [isVisible, setIsVisible] = useState(false);
-
-    const handleScroll = () => {
-        const aboutPart = document.getElementById('about_part');
-        const topPosition = aboutPart.getBoundingClientRect().top;
-        const screenPosition = window.innerHeight / 1.3;
-
-        if (!isVisible && topPosition < screenPosition) {
-            setIsVisible(true);
-        }
-    };
-
-    useEffect(() => {
-        window.addEventListener('scroll', handleScroll);
-        return () => window.removeEventListener('scroll', handleScroll);
-    }, [isVisible]);
-
+    const isVisible = useVisibility('about_part');
     return (
         <div id="about_part" className={`flex justify-center items-center text-[#fff8f8] font-baskerville`}>
             <div className='about_me_text'>

@@ -1,22 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import './Experience.css'
+import useVisibility from './useVisibility';
 export const Experience = () => {
-    const [isVisible, setIsVisible] = useState(false);
-
-    const handleScroll = () => {
-        const expart = document.getElementById('container');
-        const topPosition = expart.getBoundingClientRect().top;
-        const screenPosition = window.innerHeight / 1.3;
-
-        if (!isVisible && topPosition < screenPosition) {
-            setIsVisible(true);
-        }
-    };
-
-    useEffect(() => {
-        window.addEventListener('scroll', handleScroll);
-        return () => window.removeEventListener('scroll', handleScroll);
-    }, [isVisible]);
+    const isVisible = useVisibility('container');
 
     return (
         <div id="container" className="flex justify-center items-center text-[#fff8f8] font-baskerville">
