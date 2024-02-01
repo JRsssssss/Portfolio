@@ -4,7 +4,8 @@ img{
     border-radius: 50%;
     object-fit: cover;
 }
-
-.container{
+#container2{
+    flex-direction: row;
     gap: 80px;
+    margin-top: 485px ;
 }
