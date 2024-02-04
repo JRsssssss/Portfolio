@@ -9,14 +9,14 @@ export const MyImage = () =>{
     const isVisible = useVisibility('container2');
 
     return(
-        <div id="container2" className="flex justify-center border">
-            <div className="border">
+        <div id="container2" className="flex justify-center">
+            <div className={`${isVisible ? 'show_image_slide_from_left ' : 'hide_image'}`}>
                 <img src={Prem1} alt="Prem sitting"/>
             </div>
-            <div className="border">
+            <div className={`${isVisible ? 'show_image' : 'hide_image'}`}>
                 <img src={Prem2} alt="Prem standing" />
             </div>
-            <div className="border">
+            <div className={`${isVisible ? 'show_image_slide_from_right ' : 'hide_image'}`}>
                 <img src={Prem3} alt="Prem watching" />
             </div>
         </div>
