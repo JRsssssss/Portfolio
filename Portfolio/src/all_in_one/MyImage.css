@@ -19,7 +19,7 @@ img{
     opacity: 1; 
     visibility: visible; 
     transition: opacity 2s, visibility 2s; 
-    animation: slide_up 1s linear forwards;
+    animation: slide_up 1s ease;
 }
 .show_image_slide_from_left {
     position: relative;
@@ -28,7 +28,7 @@ img{
     opacity: 1; 
     visibility: visible; 
     transition: opacity 2s, visibility 2s;
-    animation: slide_from_left 1s linear forwards;
+    animation: slide_from_left 1s ease;
 }
 .show_image_slide_from_right {
     position: relative;
@@ -37,7 +37,7 @@ img{
     opacity: 1; 
     visibility: visible; 
     transition: opacity 2s, visibility 2s;
-    animation: slide_from_right 1s linear forwards;
+    animation: slide_from_right 1s ease;
 }
 @keyframes slide_up {
     0%{

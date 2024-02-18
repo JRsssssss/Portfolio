@@ -1,0 +1,13 @@
+#Project_part {
+    margin-top: 300px;
+    height: 80vh;
+    gap: 80px;
+    padding: 20px;
+}
+.project_text{
+    font-size: 60px;
+    text-align: center;
+}
+.first_project{
+    font-size: 30px;
+}
