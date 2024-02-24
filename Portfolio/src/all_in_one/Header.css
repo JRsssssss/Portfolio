@@ -1,12 +1,12 @@
 .about_contact{
     display: flex;
-    gap: 40px;
-    font-size: 24px;
+    gap: 45px;
+    font-size: 35px;
 }
 .icon{
-    width: 40px;
-    height: 40px;
-    gap: 40px;
+    width: 50px;
+    height: 50px;
+    gap: 50px;
 }
 .icon_container{
     display: flex;
@@ -14,28 +14,35 @@
 }
 @media  screen and (min-width:768px) and (max-width:1023px){
     .about_contact{
-        gap: 25px;
-        font-size: 16px;
+        gap: 35px;
+        font-size: 25px;
     }
     .icon{
-        width: 30px;
-        height: 30px;
+        width: 40px;
+        height: 40px;
     }
     .icon_container{
         gap: 30px;
     }
 }
 
-@media screen and (max-width:767px){
+@media screen and (min-width:412px) and (max-width:767px){
     .about_contact{
-        gap: 15px;
-        font-size: 14px;
+        gap: 25px;
+        font-size: 20px;
     }
     .icon{
-        width: 20px;
-        height: 20px;
+        width: 30px;
+        height: 30px;
     }
     .icon_container{
-        gap: 15px;
+        gap: 25px;
+    }
+}
+
+@media scree and (max-width:411px){
+    .icon{
+        width: 30px;
+        height: 30px;
     }
 }
