@@ -289,7 +289,7 @@
         }
         50%{
             transform: rotate(360deg);
-            translate: 130px 100px;
+            translate: 110px 80px;
         }
         100%{
             transform: rotate(0deg); 

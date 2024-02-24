@@ -123,20 +123,20 @@
     @keyframes year_header{
         0% {
             width: 0px;
-            left: 240px;
+            left: 200px;
         }
         50% {
             width: 100px;
-            left: 240px;
+            left: 200px;
         }
         100% {
             width: 0px;
-            left: 340px;
+            left: 300px;
         }
     }
 }
 
-@media screen and (max-width:767px) {
+@media screen and (min-width:413px) and (max-width:767px) {
     #container{
         flex-direction: column-reverse;
         gap: 40px;
@@ -154,6 +154,7 @@
     .year_detail{
         text-align: center;
     }
+
     @keyframes ex_text{
         0% {
             width: 0px; 
@@ -180,6 +181,54 @@
         100% {
             width: 0px;
             left: 300px;
+        }
+    }
+}
+
+@media screen and (max-width:412px) {
+    #container{
+        flex-direction: column-reverse;
+        gap: 40px;
+    }
+    .experience_text{
+        font-size: 30px;
+    }
+    .experience_paragraph{
+        font-size: 16px;
+        width: 300px;
+    }
+    .year{
+        text-align: center;
+    }
+    .year_detail{
+        text-align: center;
+    }
+    @keyframes ex_text{
+        0% {
+            width: 0px; 
+            left: -30px
+        }
+        50% {
+            width: 200px;
+            left: -30px
+        }
+        100% {
+            width: 0px;
+            left:  170px
+        }
+    }
+    @keyframes year_header{
+        0% {
+            width: 0px;
+            left: 100px;
+        }
+        50% {
+            width: 100px;
+            left:  100px;
+        }
+        100% {
+            width: 0px;
+            left: 200px;
         }
     }
 }
