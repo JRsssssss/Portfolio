@@ -75,7 +75,7 @@ img{
         left: 50px;
     }
 }
-@media screen and (max-width:838px){
+@media screen and (min-width:413px) and (max-width:838px){
     img{
         width: 150px;
         height: 150px;
@@ -85,5 +85,21 @@ img{
     }
     .show_image_slide_from_right{
         left: 0px;   
+    }
+}
+@media screen and (max-width:412px) {
+    img{
+        width: 100px;
+        height: 100px;
+    }
+    .show_image_slide_from_left{
+        left: 50px;
+    }
+    .show_image_slide_from_right{
+        left: -50px;   
+    }
+    #container2{
+        margin-top: 300px;
+        gap: 60px;
     }
 }

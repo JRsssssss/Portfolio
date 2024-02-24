@@ -181,7 +181,7 @@
     }
 }
 
-@media screen and (max-width:767px){
+@media screen and (min-width: 413) and (max-width:767px){
     .hello_text{
         font-size: 60px;
     }
@@ -246,6 +246,78 @@
         50%{
             transform: rotate(360deg);
             translate: -160px 120px;
+        }
+        100%{
+            transform: rotate(0deg);
+            translate: 0px 0px;
+        }
+    }
+}
+@media screen and (max-width:412px) {
+    .hello_text{
+        font-size: 55px;
+    }
+    .short_intro{
+        font-size: 9px; 
+    }
+    .my_img{
+        width: 125px;
+        height: 125px;
+        border-radius: 50%;
+        object-fit: cover; 
+    }
+    .circle::before, .circle_2::before, .circle_3::before {
+        height: 25px;
+        width: 25px;
+    }
+    .circle::before{
+        top: 110px;
+        left: 220px;
+    }
+    .circle_2::before{
+        left: 280px;
+        top: 240px;
+    }
+    .circle_3::before{
+        left: 345px;
+        top: 110px;
+    }
+    @keyframes spin_01{
+        0%{
+            transform: rotate(0deg);
+            translate: 0px 0px;
+        }
+        50%{
+            transform: rotate(360deg);
+            translate: 130px 100px;
+        }
+        100%{
+            transform: rotate(0deg); 
+            transform: 0px 0px;
+        }
+    }
+    @keyframes spin_02{
+        0%{
+            transform: rotate(0deg);
+            translate: 0px 0px;
+        }
+        50%{
+            transform: rotate(360deg);
+            translate: 0px -150px;
+        }
+        100%{
+            transform: rotate(0deg);
+            translate: 0px 0px;
+        }
+    }
+    @keyframes spin_03{
+        0%{
+            transform: rotate(0deg);
+            translate: 0px 0px;
+        }
+        50%{
+            transform: rotate(360deg);
+            translate: -130px 100px;
         }
         100%{
             transform: rotate(0deg);

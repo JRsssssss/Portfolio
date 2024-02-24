@@ -26,7 +26,7 @@
     }
 }
 
-@media screen and (min-width:412px) and (max-width:767px){
+@media screen and (min-width:413px) and (max-width:767px){
     .about_contact{
         gap: 25px;
         font-size: 20px;
@@ -40,9 +40,16 @@
     }
 }
 
-@media scree and (max-width:411px){
+@media screen and (max-width:412px){
+    .about_contact{
+        gap: 15px;
+        font-size: 15px;
+    }
     .icon{
-        width: 30px;
-        height: 30px;
+        width: 20px;
+        height: 20px;
+    }
+    .icon_container{
+        gap: 15px;
     }
 }
