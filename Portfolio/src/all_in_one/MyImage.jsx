@@ -11,13 +11,13 @@ export const MyImage = () =>{
     return(
         <div id="container2" className="flex justify-center">
             <div className={`${isVisible ? 'show_image_slide_from_left ' : 'hide_image'}`}>
-                <img src={Prem1} alt="Prem sitting"/>
+                <img src={Prem1} alt="Prem sitting" className="img_for_me"/>
             </div>
             <div className={`${isVisible ? 'show_image' : 'hide_image'}`}>
-                <img src={Prem2} alt="Prem standing" />
+                <img src={Prem2} alt="Prem standing" className="img_for_me"/>
             </div>
             <div className={`${isVisible ? 'show_image_slide_from_right ' : 'hide_image'}`}>
-                <img src={Prem3} alt="Prem watching" />
+                <img src={Prem3} alt="Prem watching" className="img_for_me" />
             </div>
         </div>
     );

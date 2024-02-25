@@ -11,3 +11,15 @@
 .first_project{
     font-size: 30px;
 }
+.text_paragraph{
+    color: rgb(228, 226, 120);
+}
+#first_link{
+    font-size: 20px;
+    color: #fff8f8;
+}
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 0%;
+}
