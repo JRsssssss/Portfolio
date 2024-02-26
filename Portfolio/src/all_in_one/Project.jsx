@@ -22,11 +22,6 @@ export const Project = () => {
                     </div>
                 </div>
                 <div id='image_first_project' className='flex gap-[20px]'>
-                    <img src= {Home1} alt="Home1" />
-                    <img src= {Home2} alt="Home2" />
-                    <img src= {Home3} alt="Home3" />
-                    <img src= {Home4} alt="Home4" />
-                    <img src= {Home5} alt="Home5" />
                 </div> 
             </div>
         </div>

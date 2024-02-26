@@ -64,7 +64,7 @@
     }
 }
 @media screen and (min-width:839px) and (max-width:1171px){
-    img{
+    .img_for_me{
         width: 200px;
         height: 200px;
     }
@@ -76,7 +76,7 @@
     }
 }
 @media screen and (min-width:413px) and (max-width:838px){
-    img{
+    .img_for_me{
         width: 150px;
         height: 150px;
     }
@@ -88,7 +88,7 @@
     }
 }
 @media screen and (max-width:412px) {
-    img{
+    .img_for_me{
         width: 100px;
         height: 100px;
     }
