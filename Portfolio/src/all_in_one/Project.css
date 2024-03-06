@@ -10,6 +10,8 @@
 }
 .first_project{
     font-size: 30px;
+    display: flex;
+    flex-direction: row;
 }
 .text_paragraph{
     color: rgb(228, 226, 120);
@@ -18,8 +20,7 @@
     font-size: 20px;
     color: #fff8f8;
 }
-#img_first_project{
-    width: 200px;
-    height: 200px;
-    border-radius: 0%;
+.img_first_project{
+    width: 300px;        
+    height: 300px;       
 }
