@@ -13,7 +13,17 @@ export const Project = () => {
                 <h1>Project</h1>
             </div>
             <div id = 'project_container'className='flex justify-center gap-[100px] mt-[200px]'>
-                <p>On process...</p>
+                <div className='first_project gap-[200px]'>
+                    <div>
+                        <h2>Software Engneering KMITL Website</h2>
+                        <p className='text_paragraph'>Link: <a id= 'first_link'href="" target='blank' className='link_to_website'>SE KMITL Website</a></p>
+                    </div>
+                    <div className='flex gap-[50px] w-[200px]'>
+                        <img src= {Home1} alt="home page of SE website project" className='img_first_project'/>
+                        <img src= {About1} alt="about pagee of SE website project" className='img_first_project'/>
+                        <img src= {Program1} alt="program pagee of SE website project" className='img_first_project'/>
+                    </div> 
+                </div>
             </div>
         </div>
     )
