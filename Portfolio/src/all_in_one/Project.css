@@ -3,22 +3,18 @@
     height: 80vh;
     gap: 80px;
     padding: 20px;
-    border: 1px solid white;
 }
 .project_text{
     font-size: 60px;
     text-align: center;
-    border: 1px solid white;
 }
 .first_project{
     font-size: 30px;
     display: flex;
     flex-direction: row;
-    border: 1px solid white;
 }
 .text_paragraph{
     color: rgb(228, 226, 120);
-    border: 1px solid white;
 }
 #first_link{
     font-size: 20px;
